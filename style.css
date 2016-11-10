@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+.row {
+	padding: 0 0px;
+	margin: 0;
+}
+.col-sm-6 {
+	padding: 0;
+}
+.left-panel {
+	background-color: #f0f0f0;
+	margin: 0;
+	height: 100vh;
+}
+.right-panel {
+	background-color: #404040;
+	margin: 0;
+	height: 100vh;
+}
+.footer {
+	height: 10vh;
+	text-align: center;
+	padding-top: 27px;
+	padding-left: 20%;
+	padding-right: 20%;
+	border-top: 1px solid #333;
+}
+.footer span {
+	font-size: 16px;
+	color: #333;
+}
+.inner-panel {
+	width: 100%;
+	padding-top: 25vh;
+	padding-left: 20%;
+}
+.app-name {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: bold;
+	font-size: 34px;
+	padding-left: 5px;
+}
+.app-desc {
+	color: #f0f0f0;
+	font-family: 'Roboto', sans-serif;
+}
+.download-btn {
+	padding: 15px 25px;
+	color: white;
+	border-radius: 5px;
+	background-color: #ee5f5d;
+	font-weight: bold;
+	font-size: 18px;
+}
+.download-btn:hover, .download-btn:focus {
+	text-decoration: none;
+	color: white;
+}
+.iphone-img {
+	width: 50vh;
+	padding-top: 10%;
+	display: block;
+	margin: 0 auto;
+}
+.icon-img {
+	width: 75px;
+}
+.main {
+	margin-bottom: 35px;
+}
+.second {
+	border-bottom: 1px solid #f0f0f0;
+	margin-bottom: 25px;
+	width: 350px;
+	font-size: 16px;
+}
+.third {
+	margin-top: 25px;
+}
+.left-footer, .right-footer {
+	display: inline-block;
+}
+.left-footer {
+	float: left;
+}
+.right-footer {
+	float: right;
+}
+.foot-link {
+	padding: 0 15px;
+}
+.foot-link a {
+	color: #333;
+}
+.foot-link a:hover {
+	color: #ee5f5d;
+	text-decoration: none;
+}
